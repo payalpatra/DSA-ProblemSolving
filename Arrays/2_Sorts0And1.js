@@ -16,7 +16,6 @@ function sort(nums) {
     // If the mid points to 0 -> Swap the Value
     if (nums[mid] === 0) {
       // swap mid value with low
-
       [nums[low], nums[mid]] = [nums[mid], nums[low]];
       low = low + 1;
       mid = mid + 1;

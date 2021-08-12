@@ -2,10 +2,43 @@
 
 // To Find the number which is missing and the NUMBER which is repeating
 
-
+// BRUTE FORCE APPROACH - Hashing Technique
 
 function repeatingAndMissing(arr) {
- 
+    let numArr = new Array(arr.length).fill(0);
+    let count = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        let index = arr[i];
+        numArr[index] = count
+        count = count + 1;
+    }
+
+    // Traverse through the array
+    for (let i = 1; i < numArr.length; i++) {
+        // Index Having the value 0 is the missing number
+        if (numArr[i] == 0) {
+            console.log("Missing Number", i)
+        }
+
+        // Index having value 2 is the repeated number
+        if (numArr[i] == 2) {
+            console.log("Repeated Number", i)
+        }
+    }
+
+    return;
 }
 
 console.log(repeatingAndMissing([3, 1, 3]))
+
+
+// OUTPUT - 2
+
+/*
+
+TIME COMPLEXITY - O(N) + 0(N) = O(2N) ----> O(N)
+SPACE COMPLEXITY - O(N)w
+
+*/
+
