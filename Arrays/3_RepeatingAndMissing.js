@@ -33,12 +33,12 @@ function repeatingAndMissing(arr) {
 console.log(repeatingAndMissing([3, 1, 3]))
 
 
-// OUTPUT - 2
+// OUTPUT
 
 /*
 
 TIME COMPLEXITY - O(N) + 0(N) = O(2N) ----> O(N)
-SPACE COMPLEXITY - O(N)w
+SPACE COMPLEXITY - O(N)
 
 */
 
