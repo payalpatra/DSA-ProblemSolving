@@ -31,3 +31,12 @@ var merge = function (intervals) {
 };
 
 console.log(merge([[1, 3], [2, 6], [8, 10], [15, 18]]))
+
+// OUTPUT
+
+/*
+
+TIME COMPLEXITY - O(N LOG N) + O(N)
+SPACE COMPLEXITY - O(N)
+
+*/

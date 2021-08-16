@@ -37,3 +37,12 @@ function KadaneAlgorithm(arr) {
 }
 
 console.log(KadaneAlgorithm([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
+
+// OUTPUT
+
+/*
+
+TIME COMPLEXITY -  O(N)
+SPACE COMPLEXITY - O(1)
+
+*/
