@@ -38,7 +38,7 @@ console.log(sort([2, 0, 2, 1, 1, 0]));
 
 /*
 
-TIME COMPLEXITY - O(N) 
+TIME COMPLEXITY - O(N)
 SPACE COMPLEXITY - O(1)
 
 */

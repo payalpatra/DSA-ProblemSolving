@@ -28,12 +28,12 @@ function mergeTwoArrays(arr1, arr2) {
         arr1[i] = newArray[i]
         count += 1
     }
-    for(let i = 0; i < arr2.length; i++) {
+    for (let i = 0; i < arr2.length; i++) {
         arr2[i] = newArray[count]
         count++;
     }
 
-    return [...arr1 , ...arr2];
+    return [...arr1, ...arr2];
 }
 
 console.log(mergeTwoArrays([1, 4, 7, 8, 10], [2, 3, 9]));
