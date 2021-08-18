@@ -9,6 +9,8 @@
 - Kadane's Algorithm
 - Merge Overlapping Subintervals
 - Find the duplicate in an array of N+1 integers. 
+- Set Matriz Zeros
+- Pascal Triangle
 
 ## Hashing
 
