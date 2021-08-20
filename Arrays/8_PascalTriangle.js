@@ -17,15 +17,12 @@
 // 4 C 2 = 4 * 3 / 2 * 1
 // nCr = n! / r!( n -r)!
 
-// Source Code To Compute Combination Values
-
 
 // How To Compute Permutation Values
 
 // 4 P 2 = 4 * 3 * 2 / 2 * 1
 // nPr = n! / ( n -r)!
 
-// Source Code To Compute Combination Values
 
 function Combination(n, r) {
     let res = 1;
@@ -81,3 +78,13 @@ var generate = function (numRows) {
 };
 
 console.log(generate(5))
+
+
+// OUTPUT
+
+/*
+
+TIME COMPLEXITY - O(N2)
+SPACE COMPLEXITY - O(N2)
+
+*/

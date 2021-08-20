@@ -11,7 +11,11 @@
 - Find the duplicate in an array of N+1 integers. 
 - Set Matriz Zeros
 - Pascal Triangle
+- Next Permutation
+- Inversion of an Array
+- Rotate Matrix
 
 ## Hashing
 
 - Longest Consecutive Sequence 
+- 4 Sum Problem
