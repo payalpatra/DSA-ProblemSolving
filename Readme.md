@@ -19,3 +19,5 @@
 
 - Longest Consecutive Sequence 
 - 4 Sum Problem
+- Largest Sub Array with 0 Sum
+- Count the number of subarrays having a given XOR

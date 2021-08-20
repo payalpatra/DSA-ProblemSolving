@@ -1,3 +1,7 @@
+// Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
+
+// You must write an algorithm that runs in O(n) time.
+
 function LongestConsecutive(nums) {
 
     if (nums == null || nums.length === 0) return 0;
