@@ -27,13 +27,15 @@ function repeatingAndMissing(arr) {
         }
     }
 
-    return;
+    return numArr;
 }
 
 console.log(repeatingAndMissing([3, 1, 3]))
 
 
-// OUTPUT
+// OUTPUT - 
+// Missing Number 2
+// Repeated Number 3
 
 /*
 

@@ -22,7 +22,6 @@ function mergeTwoArrays(arr1, arr2) {
     let newArray = [...arr1, ...arr2];
     newArray.sort((a, b) => a - b)
 
-
     let count = 0;
     for (let i = 0; i < arr1.length; i++) {
         arr1[i] = newArray[i]
@@ -40,6 +39,7 @@ console.log(mergeTwoArrays([1, 4, 7, 8, 10], [2, 3, 9]));
 
 
 // OUTPUT
+// [ 1, 2, 3, 4, 7, 8, 9, 10 ]
 
 /*
 

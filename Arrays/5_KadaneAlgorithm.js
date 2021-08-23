@@ -38,7 +38,7 @@ function KadaneAlgorithm(arr) {
 
 console.log(KadaneAlgorithm([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
 
-// OUTPUT
+// OUTPUT - 6
 
 /*
 

@@ -72,7 +72,7 @@ function mergeAndCount(arr,l,m,r)
 
 console.log(mergeSortAndCount([1, 20, 6, 4, 5], 0, 4));
 
-// OUTPUT
+// OUTPUT - 5
 
 /*
 

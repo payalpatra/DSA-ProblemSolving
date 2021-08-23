@@ -34,7 +34,7 @@ function sort(nums) {
 
 console.log(sort([2, 0, 2, 1, 1, 0]));
 
-// OUTPUT - 2
+// OUTPUT - [ 0, 0, 1, 1, 2, 2 ]
 
 /*
 
