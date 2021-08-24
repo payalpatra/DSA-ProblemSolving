@@ -35,7 +35,7 @@ function LongestConsecutive(nums) {
 console.log(LongestConsecutive([1, 2, 0, 1]));
 
 
-// OUTPUT
+// OUTPUT - 3
 
 /*
 

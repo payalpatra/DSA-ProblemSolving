@@ -4,7 +4,7 @@
 function LargestSubArr(arr, n) {
     if (arr.length === 0) return arr;
     let hashMap = {}
- 
+
     let maxLength = 0;
     let sum = 0;
 
@@ -31,6 +31,7 @@ function LargestSubArr(arr, n) {
 
 console.log(LargestSubArr([15, -2, 2, -8, 1, 7, 10, 23], 8))
 
+// OUTPUT - 5
 
 /*
 
