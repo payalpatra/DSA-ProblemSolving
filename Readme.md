@@ -15,8 +15,12 @@
 - Inversion of an Array
 - Rotate Matrix
 
+## Arrays
+- Search in a 2D matrix  
+
 ## Hashing
 
+- 2 Sum Problem
 - Longest Consecutive Sequence 
 - 4 Sum Problem
 - Largest Sub Array with 0 Sum
