@@ -17,6 +17,10 @@
 
 ## Arrays
 - Search in a 2D matrix  
+- Pow(X,n)
+- Majority Element (N/2 Elements)
+- Majority Element (N/3 Elements)
+- Grid Unique Paths 
 
 ## Hashing
 
