@@ -15,7 +15,7 @@
 - Inversion of an Array
 - Rotate Matrix
 
-## Arrays
+## Maths 
 - Search in a 2D matrix  
 - Pow(X,n)
 - Majority Element (N/2 Elements)
