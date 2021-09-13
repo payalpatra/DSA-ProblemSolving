@@ -55,7 +55,7 @@ var middleNode = function (head) {
 
 };
 
-console.log(middleNode(head))
+console.log("OUTPUT 1 :", middleNode(head))
 
 // Node {
 //     val: 3,
@@ -65,6 +65,27 @@ console.log(middleNode(head))
 /*
 
 TIME COMPLEXITY - O(N) + O(N)
+SPACE COMPLEXITY - O(1)
+
+*/
+
+var middleNode2 = function (head) {
+    let slow = head;
+    let fast = head;
+    while (slow !== null && fast.next !== null) {
+        slow = slow.next;
+        fast = fast.next.next
+    }
+    return slow
+
+
+};
+
+console.log("OUTPUT 2 :", middleNode2(head))
+
+/*
+
+TIME COMPLEXITY - O(N/2)
 SPACE COMPLEXITY - O(1)
 
 */
