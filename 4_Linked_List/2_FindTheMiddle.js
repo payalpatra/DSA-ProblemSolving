@@ -78,7 +78,6 @@ var middleNode2 = function (head) {
     }
     return slow
 
-
 };
 
 console.log("OUTPUT 2 :", middleNode2(head))

@@ -9,7 +9,7 @@
 - Kadane's Algorithm
 - Merge Overlapping Subintervals
 - Find the duplicate in an array of N+1 integers. 
-- Set Matriz Zeros
+- Set Matrix Zeros
 - Pascal Triangle
 - Next Permutation
 - Inversion of an Array
@@ -34,6 +34,9 @@
 ## Linked List
 
 - Reverse a Linked List
-- Find the middle of LinkedList 
+- Find the middle of Linked List 
+- Merge two sorted Linked List
+- Remove N-th node from the back of LinkedList 
+
 
 
