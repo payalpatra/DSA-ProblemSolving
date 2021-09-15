@@ -38,18 +38,20 @@ var removeNthFromEnd = function (head, n) {
     let newHead = new Node(null);
     newHead.next = head
     let slow = newHead;
-    let fast = head;
-    while (fast) {
+    let fast = newHead;
+
+    // Move the fast pointer till Nth node
+    for (let i = 1; i <= n; i++) {
         fast = fast.next;
-        if (n > 0) {
-            n--;
-        } else {
-            slow = slow.next;
-        }
+    }
+
+    // Then move the fast and slow pointer together till the end of the list
+    while (fast.next !== null) {
+        fast = fast.next;
+        slow = slow.next;
     }
     slow.next = slow.next.next;
     return newHead.next;
-
 };
 
 console.log(removeNthFromEnd(head, 2))
@@ -57,7 +59,7 @@ console.log(removeNthFromEnd(head, 2))
 
 /*
 
-TIME COMPLEXITY - O(N + N)
+TIME COMPLEXITY - O(N )
 SPACE COMPLEXITY - O(1)
 
 */
