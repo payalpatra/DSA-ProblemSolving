@@ -37,6 +37,7 @@
 - Find the middle of Linked List 
 - Merge two sorted Linked List
 - Remove N-th node from the back of LinkedList 
-
+- Delete a given node when a node is given
+- Add two Numbers
 
 
