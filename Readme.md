@@ -39,5 +39,6 @@
 - Remove N-th node from the back of LinkedList 
 - Delete a given node when a node is given
 - Add two Numbers
+- Find intersection point of Y Linked List
 
 
