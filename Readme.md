@@ -40,5 +40,5 @@
 - Delete a given node when a node is given
 - Add two Numbers
 - Find intersection point of Y Linked List
-
+- Detect a cycle in Linked List
 
