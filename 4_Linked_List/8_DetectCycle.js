@@ -70,6 +70,7 @@ SPACE COMPLEXITY - O(N)
 
 
 var hasCycle2 = function (head) {
+    if (head == null) return false;
     let slow = new Node(false);
     let fast = new Node(false);
 
@@ -79,13 +80,10 @@ var hasCycle2 = function (head) {
 
     // Move slow pointer by one step 
     // Move fast pointer by two step
-    while (fast !== null) {
+    while (fast.next !== null && fast.next.next !== null) {
         slow = slow.next;
         fast = fast.next.next;
-        if (slow === null && cycle === false) {
-            cycle = false;
-            break;
-        }
+
         if (slow === fast) {
             cycle = true;
             break;
