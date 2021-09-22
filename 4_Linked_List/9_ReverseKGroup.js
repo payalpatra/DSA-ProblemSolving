@@ -67,3 +67,17 @@ var reverseKGroup = function (head, k) {
 
 };
 console.log(reverseKGroup(head, 2));
+
+
+// Node {
+//     val: 2,
+//     next: Node { val: 1, next: Node { val: 4, next: [Node] } }
+//   }
+
+
+/*
+
+TIME COMPLEXITY - O(N /k * K) = O(N)
+SPACE COMPLEXITY - O(1)
+
+*/
