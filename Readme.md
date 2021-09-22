@@ -41,4 +41,5 @@
 - Add two Numbers
 - Find intersection point of Y Linked List
 - Detect a cycle in Linked List
+- Reverse Nodes in k-Group
 
