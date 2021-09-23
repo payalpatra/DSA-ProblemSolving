@@ -42,5 +42,6 @@
 - Find intersection point of Y Linked List
 - Detect a cycle in Linked List
 - Reverse Nodes in k-Group
-
+- Palindrome Linked List
+- Find the starting point of the Loop of LinkedList
 
