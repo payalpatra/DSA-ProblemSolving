@@ -14,8 +14,94 @@
 // Output: tail connects to node index 0
 // Explanation: There is a cycle in the linked list, where tail connects to the first node.
 
-var detectCycle = function(head) {
-    
+
+var head;
+
+class Node {
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
+}
+
+
+head = new Node(3);
+head.next = new Node(2);
+head.next.next = new Node(0);
+head.next.next.next = new Node(4);
+head.next.next.next.next = head.next;
+
+var detectCycle = function (head) {
+
+    let hashTable = new Map();
+    let node = null;
+
+    while (head) {
+        let ele = head.val;
+
+        if (!hashTable[ele]) {
+            hashTable[ele] = true;
+        } else {
+            node = head
+            break
+        }
+        head = head.next;
+
+    }
+    return node;
+
+
 };
 
-console.log(detectCycle(head));
+/*
+
+TIME COMPLEXITY - O(N)
+SPACE COMPLEXITY - O(N)
+
+*/
+
+console.log("OUPUT 1", detectCycle(head));
+
+
+var detectCycle2 = function (head) {
+
+    if (head == null) return false;
+
+    let slow = new Node(false);
+    let fast = new Node(false);
+
+    slow = head
+    fast = head
+
+    // To Find the Collision Point
+    while (fast.next !== null & fast.next.next !== null) {
+        slow = slow.next;
+        fast = fast.next.next;
+
+        // Break out of the loop at the meeting point
+        if (slow === fast) {
+            break;
+        }
+    }
+
+    let entry = head;
+
+    // To find the start of the cycle
+    while (entry !== slow) {
+        entry = entry.next
+        slow = slow.next;
+    }
+
+    return slow;
+
+
+};
+
+/*
+
+TIME COMPLEXITY - O(1)
+SPACE COMPLEXITY - O(1)
+
+*/
+
+console.log("OUPUT 2", detectCycle2(head));
