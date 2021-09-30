@@ -14,6 +14,7 @@
 - Next Permutation
 - Inversion of an Array
 - Rotate Matrix
+- Stock Buy and Sell
 
 ## Maths 
 - Search in a 2D matrix  
@@ -44,4 +45,5 @@
 - Reverse Nodes in k-Group
 - Palindrome Linked List
 - Find the starting point of the Loop of LinkedList
-
+- Flatenning a Linked List
+- Rotate a Linked List

@@ -63,7 +63,7 @@ console.log("OUPUT 1", detectCycle(head));
 
 var detectCycle2 = function (head) {
 
-    if (head == null || head.next === null) return false;
+    if (head == null || head.next === null) return null;
 
     let slow = new Node(false);
     let fast = new Node(false);
@@ -74,7 +74,7 @@ var detectCycle2 = function (head) {
     entry = head
 
     // To Find the Collision Point
-    while (fast.next !== null & fast.next.next !== null) {
+    while (fast.next !== null && fast.next.next !== null) {
         slow = slow.next;
         fast = fast.next.next;
 
@@ -92,11 +92,12 @@ var detectCycle2 = function (head) {
     return null;
 };
 
+
+console.log("OUPUT 2", detectCycle2(head));
+
 /*
 
 TIME COMPLEXITY - O(N)
 SPACE COMPLEXITY - O(1)
 
 */
-
-console.log("OUPUT 2", detectCycle2(head));
