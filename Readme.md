@@ -48,6 +48,9 @@
 - Flatenning a Linked List
 - Rotate a Linked List
 - Clone a Linked List with random and next pointer
+- 3 sum 
+- Trapping rainwater 
+
 ## Trees
 
 - Inorder Traversal ( With Recursion & Without Recursion )

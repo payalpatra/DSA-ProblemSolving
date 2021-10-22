@@ -54,7 +54,6 @@ var inorderTraversal2 = function (root) {
     const res = [];
 
     while (root || stack.length) {
-      
         if (root) {
             stack.push(root);
             root = root.left;
