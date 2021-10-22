@@ -46,6 +46,7 @@ var trap2 = function (height) {
     // Total Water
     let water = 0;
 
+    // Left And Right Pointers
     let left = 0;
     let right = height.length - 1;
 
@@ -53,20 +54,40 @@ var trap2 = function (height) {
     let rightM = 0;
 
     while (left <= right) {
-        if (height[left] >= leftM) {
-            leftM = height[left];
-        }
+        // if (height[left] >= leftM) {
+        //     leftM = height[left];
 
-        if (height[right] >= rightM) {
-            rightM = height[right];
-        }
+        // }
 
-        if (leftM > rightM) {
-            water = water + rightM - height[right];
-            right--;
-        }else{
-            water = water + leftM - height[left];
+        // if (height[right] >= rightM) {
+        //     rightM = height[right];
+        // }
+
+        // if (leftM > rightM) {
+        //     water = water + rightM - height[right];
+        //     right--;
+        // } else {
+        //     water = water + leftM - height[left];
+        //     left++;
+        // }
+
+        if (height[left] <= height[right]) {
+
+            if (height[left] >= leftM) {
+                leftM = height[left];
+            } else {
+                water = water + leftM - height[left];
+            }
             left++;
+
+        } else {
+            if(height[right] >= rightM) {
+                rightM = height[right];
+            }else {
+                water = water + rightM - height[right];
+            }
+
+            right--;
         }
     }
 
@@ -78,6 +99,6 @@ console.log(trap2([0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]));
 /*
 
 TIME COMPLEXITY - O(N)
-SPACE COMPLEXITY - O(N)
+SPACE COMPLEXITY - O(1)
 
 */
