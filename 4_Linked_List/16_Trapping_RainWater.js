@@ -54,22 +54,6 @@ var trap2 = function (height) {
     let rightM = 0;
 
     while (left <= right) {
-        // if (height[left] >= leftM) {
-        //     leftM = height[left];
-
-        // }
-
-        // if (height[right] >= rightM) {
-        //     rightM = height[right];
-        // }
-
-        // if (leftM > rightM) {
-        //     water = water + rightM - height[right];
-        //     right--;
-        // } else {
-        //     water = water + leftM - height[left];
-        //     left++;
-        // }
 
         if (height[left] <= height[right]) {
 
