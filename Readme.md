@@ -48,8 +48,13 @@
 - Flatenning a Linked List
 - Rotate a Linked List
 - Clone a Linked List with random and next pointer
+
+# 2 Pointer
+
 - 3 sum 
 - Trapping rainwater 
+- Remove Duplicate from Sorted array 
+- Max Consecutive 
 
 ## Trees
 
