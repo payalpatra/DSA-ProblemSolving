@@ -61,7 +61,9 @@
 - Inorder Traversal ( With Recursion & Without Recursion )
 
 # Greedy 
+
 - N meeting in one room
+- Minimum number of platforms required for a railway
 
 ## Recursion and Backtracking
 
