@@ -60,6 +60,9 @@
 
 - Inorder Traversal ( With Recursion & Without Recursion )
 
+# Greedy 
+- N meeting in one room
+
 ## Recursion and Backtracking
 
 - Print all Permutations of a string/array

@@ -42,6 +42,6 @@ console.log(permute([1, 2, 3]))
 /*
 
 TIME COMPLEXITY - N ! * N
-SPACE COMPLEXITY - N(1)
+SPACE COMPLEXITY - O(1)
 
 */
