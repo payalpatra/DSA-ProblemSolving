@@ -64,6 +64,7 @@
 
 - N meeting in one room
 - Minimum number of platforms required for a railway
+- Job Sequencing Problem 
 
 # Recursion
 
