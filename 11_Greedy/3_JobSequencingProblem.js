@@ -64,8 +64,7 @@ function jobScheduling(arr, n) {
     }
 }
 
-console.log(
-    jobScheduling(
+console.log(jobScheduling(
         [
             [6, 2, 80],
             [3, 6, 70],
