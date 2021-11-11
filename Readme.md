@@ -65,6 +65,10 @@
 - N meeting in one room
 - Minimum number of platforms required for a railway
 
+# Recursion
+
+Subset Sums 
+
 ## Recursion and Backtracking
 
 - Print all Permutations of a string/array
